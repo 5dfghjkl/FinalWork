@@ -1,0 +1,72 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="page_margin">30dp</dimen>
+    <dimen name="text_size8">8sp</dimen>
+    <dimen name="text_size10">10sp</dimen>
+    <dimen name="text_size12">12sp</dimen>
+    <dimen name="text_size13">13sp</dimen>
+    <dimen name="text_size14">14sp</dimen>
+    <dimen name="text_size15">15sp</dimen>
+    <dimen name="text_size16_34">16sp</dimen>
+    <dimen name="text_size17">17sp</dimen>
+    <dimen name="text_size18_44">18sp</dimen>
+    <dimen name="text_size20_48">20sp</dimen>
+    <dimen name="text_size24">24sp</dimen>
+    <dimen name="text_size26_56">26sp</dimen>
+    //titleBar字体大小
+    <dimen name="titleBar_size">20sp</dimen>
+    <dimen name="text_size22">22sp</dimen>
+    //列表头像和字体大小
+    <dimen name="list_heard">40dp</dimen>
+    <dimen name="list_heardnamesize">14sp</dimen>
+    <dimen name="list_heardnamesize2">16sp</dimen>
+    <dimen name="back_with">45dp</dimen>
+    <dimen name="back_height">40dp</dimen>
+    <dimen name="back_margLeft">12dp</dimen>
+    //返回按钮大小和padding值
+    <dimen name="mdback_with">57dp</dimen>
+    <dimen name="mdback_height">56dp</dimen>
+    <dimen name="mdback_paddingleft">0dp</dimen>
+    <dimen name="back_paddingleft">0dp</dimen>
+    <dimen name="mdbackicon_paddingleft">5dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+
+    <dimen name="buttonCornerSize">2.0dip</dimen>
+    <dimen name="dialog_round_radius">4.0dip</dimen>
+    <dimen name="smallButtonHeight">32.0dip</dimen>
+    <dimen name="smallButtonWidth">48.0dip</dimen>
+    <dimen name="normalButtonHeight">48.0dip</dimen>
+    <dimen name="normalButtonWidth">80.0dip</dimen>
+
+    <dimen name="basicPaddingSize">4.0dip</dimen>
+    <dimen name="inputEditTextMinHeight">32.0dip</dimen>
+    <dimen name="searchViewMinHeight">45dip</dimen>
+    <dimen name="smallPadding">8.0dip</dimen>
+    <dimen name="largePadding">16.0dip</dimen>
+    <dimen name="largerPadding">24.0dip</dimen>
+    <dimen name="largestPadding">32.0dip</dimen>
+    <dimen name="smallerPadding">3.0dip</dimen>
+    <dimen name="littlePadding">6.0dip</dimen>
+    <dimen name="middlePadding">10.0dip</dimen>
+    <dimen name="normalPadding">12.0dip</dimen>
+    <dimen name="footerPadding">11.0dip</dimen>
+    <dimen name="noPadding">0.0dip</dimen>
+
+    <dimen name="bigButtonTextSize">18.0dip</dimen>
+    <dimen name="normalButtonTextSize">16.0dip</dimen>
+    <dimen name="smallButtonTextSize">14.0dip</dimen>
+
+
+    <dimen name="ware_grid_img_width">60dp</dimen>
+    <dimen name="ware_grid_img_height">60dp</dimen>
+    <dimen name="ware_img_height">150dp</dimen>
+    <dimen name="ware_img_width">150dp</dimen>
+    <dimen name="small_ware_img_width">100dp</dimen>
+    <dimen name="category_layout_width">120dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="space_size">4dp</dimen>
+</resources>

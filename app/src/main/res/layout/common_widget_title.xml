@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="56dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+<LinearLayout
+    android:id="@+id/rl_title"
+    android:layout_width="fill_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rlyt_left_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/back"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_left_tv_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="123"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.03"
+        android:visibility="visible" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rlyt_miv_right1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_right1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/back"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_miv_right2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_right2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/back"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_tv_right3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_explain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="测试"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlyt_tv_right4"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_explain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="测试"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size20_48"
+        android:text="测试"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        />
+</RelativeLayout>

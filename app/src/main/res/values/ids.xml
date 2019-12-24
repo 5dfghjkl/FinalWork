@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id"/>
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="launch_product_query"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item name="id_back" type="id"/>
+    <item name="id_holder" type="id"/>
+    <item name="id_tag" type="id"/>
+    <item name="tag_index" type="id"/>
+    <item name="id_top_banner" type="id"/>
+    <item name="id_horizontalview" type="id"/>
+    <item name="id_horizontalmenu" type="id"/>
+    <item name="id_viewpager" type="id"/>
+    <item name="id_listview" type="id"/>
+    <item name="id_swiperefreshLayout" type="id"/>
+    <item name="id_lin" type="id"/>
+    <item type="id" name="statusbarutil_fake_status_bar_view" />
+    <item type="id" name="statusbarutil_translucent_view" />
+</resources>

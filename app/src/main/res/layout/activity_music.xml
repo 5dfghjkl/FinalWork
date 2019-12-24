@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/local_layout"
+    android:background="#008577"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.footprint.footprint.view.TitleWidget
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sothree:title_text="Music"
+        />
+    <com.sothree.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_UpPaneL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoDragView="@+id/dragView"
+        sothree:umanoOverlay="true"
+        sothree:umanoPanelHeight="70dp"
+        sothree:umanoParalaxOffset="100dp"
+        sothree:umanoShadowHeight="4dp">
+
+        <ListView
+            android:id="@+id/local_song_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <include layout="@layout/playing_planel" />
+
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+
+</LinearLayout>
