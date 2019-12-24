@@ -23,7 +23,6 @@ public class BodySetActivity extends BaseActivity {
         acet1= (AppCompatEditText) findViewById(R.id.acet1);
         acet2= (AppCompatEditText) findViewById(R.id.acet2);
         acet3= (AppCompatTextView) findViewById(R.id.acet3);
-        acet4= (AppCompatTextView) findViewById(R.id.acet4);
         acet5= (AppCompatEditText) findViewById(R.id.acet5);
 
         findViewById(R.id.click).setOnClickListener(new View.OnClickListener() {
@@ -37,7 +36,6 @@ public class BodySetActivity extends BaseActivity {
                     Toast.makeText(BodySetActivity.this, "Please fill in the complete information", Toast.LENGTH_SHORT).show();
                 }else{
                     acet3.setText((Double.parseDouble(s1)*Double.parseDouble(s2)/60*30/Double.parseDouble(s3))+"(cal)");
-                    acet4.setText((Double.parseDouble(s2)/Double.parseDouble(s1))+"");
                 }
 
 

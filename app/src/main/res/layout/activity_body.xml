@@ -79,23 +79,6 @@
             android:gravity="center"
             />
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:visibility="gone"
-        android:layout_height="58dp">
-        <android.support.v7.widget.AppCompatTextView
-            android:layout_width="120dp"
-            android:layout_height="match_parent"
-            android:text="BUSU (s/m):"
-            android:gravity="center"
-            />
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/acet4"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            />
-    </LinearLayout>
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/click"
         android:layout_width="match_parent"
