@@ -1,0 +1,3 @@
+# FinalWork
+一款跑步APP应用
+主要包含四个模块：主模块MainActivity、查询记录模块JiLuActivity、计算器模块BodySetActivity和音乐播放器模块MusicActivity
